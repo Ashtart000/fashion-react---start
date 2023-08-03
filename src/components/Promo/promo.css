@@ -1,0 +1,100 @@
+.promo {
+    margin-bottom: 63px;
+}
+
+.promo__content {
+    display: flex;
+    gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
+    border-radius: 59px;
+    background-color: #F4F6F5;
+    position: relative;
+    z-index: -2;
+}
+
+.promo__text {
+    
+}
+
+.promo__title {
+    max-width: 474px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+}
+
+.highlight {
+	
+}
+
+.highlight::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    width: 465px;
+    height: 112px;
+    top: 0px;
+    left: -27px;
+    transform: rotate(-2deg);
+}
+
+.highlight--yellow {
+    
+}
+
+.highlight--yellow::before {
+    width: 496px;
+    height: 117px;
+    top: 238px;
+    left: -20px;
+    background-color: var(--yellow);
+}
+
+.promo__desc {
+    font-size: 32px;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.promo__btn-wrapper {
+    margin-top: 32px;
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.promo__btn-wrapper::before {
+    content: "";
+    width: 190px;
+    height: 32px;
+    background-image: url('../../img/icons/decor-yellow.svg');
+}
+
+.promo__btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    padding: 18px 40px;   
+}
+
+.promo__btn:hover {
+    background-color: var(--yellow);
+}
+
+
+.promo__img {
+
+}
