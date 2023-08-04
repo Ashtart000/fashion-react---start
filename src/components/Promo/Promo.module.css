@@ -45,16 +45,21 @@
     transform: rotate(-2deg);
 }
 
-.highlight--yellow {
+.highlight__yellow {
     
 }
 
-.highlight--yellow::before {
+.highlight__yellow::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
     width: 496px;
     height: 117px;
     top: 238px;
     left: -20px;
     background-color: var(--yellow);
+    transform: rotate(-2deg);
 }
 
 .promo__desc {
@@ -65,14 +70,14 @@
     margin-bottom: 32px;
 }
 
-.promo__btn-wrapper {
+.promo__btn__wrapper {
     margin-top: 32px;
     display: flex;
     gap: 34px;
     align-items: center;
 }
 
-.promo__btn-wrapper::before {
+.promo__btn__wrapper::before {
     content: "";
     width: 190px;
     height: 32px;
@@ -87,7 +92,8 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: -0.05em;
-    padding: 18px 40px;   
+    padding: 18px 40px; 
+    
 }
 
 .promo__btn:hover {

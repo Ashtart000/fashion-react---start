@@ -1,0 +1,114 @@
+.sale {
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.sale__content {
+    display: flex;
+}
+
+.sale__text {
+    margin-top: 133px;
+    position: relative;
+}
+
+.sale__title {
+    max-width: 616px;
+    margin-bottom: 33px;
+    font-size: 112px;
+    font-weight: 900;
+    line-height: calc(137 / 112);
+    text-align: left;
+    position: relative;
+}
+
+.white__block {
+    background-color: white;
+    width: 541px;
+    height: 130px;
+    top: 0px;
+    left: -27px;
+    transform: rotate(-2deg);
+    position: absolute;
+}
+
+// .highlight {
+	
+// }
+
+// .highlight::before {
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     z-index: 1;
+//     background-color: white;
+//     width: 541px;
+//     height: 130px;
+//     top: 0px;
+//     left: -27px;
+//     transform: rotate(-2deg);
+// }
+
+.sale__desc, .sale__desc__bold {
+    max-width: 643px;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.sale__desc__bold {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.plusBtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.sale__btn {
+    width: 266px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    padding: 18px 40px; 
+    transition: background-color 0.3s ease;
+    position: relative;
+    
+    a {
+        color: white;
+    }
+
+    &:hover {
+        background-color: var(--yellow);
+    }
+}
+
+.sale__img {
+    position: relative;
+    left: -100px;
+    object-fit: cover;
+}
+
+.sale:hover .sale__btn {
+    animation: btnRight 0.4s ease-in-out;
+}
+
+@keyframes btnRight {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: -40px;
+    }
+    100% {
+        left: 0;
+    }
+}
+

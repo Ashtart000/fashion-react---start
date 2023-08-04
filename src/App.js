@@ -1,7 +1,9 @@
 import Arrivals from "./components/Arrivals/Arrivals";
 import Brands from "./components/Brands/Brands";
+import Favourite from "./components/Favourite/Favourite";
 import Header from "./components/Header/Header";
 import Promo from "./components/Promo/Promo";
+import Sale from "./components/Sale/Sale";
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
       <Promo />
       <Brands />
       <Arrivals />
+      <Sale />
+      <Favourite />
 		</div>
   );
 }
